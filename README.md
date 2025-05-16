@@ -10,7 +10,7 @@ What is this repo for?
 
 Whose repo is it? Who is contributing to it?
 
-## Data and file information
+This is my repo forked from fjoyce.
 
 What files are there?
 
