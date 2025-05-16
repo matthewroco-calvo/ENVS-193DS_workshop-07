@@ -1,7 +1,7 @@
 ---
 title: "Linear regression"
-author: "your name here"
-date: "insert date here"
+author: "Matthew Roco-Calvo"
+date: "2025-05-16"
 format:
   html:
     toc: true # use this to display a table of contents
@@ -9,6 +9,8 @@ execute:
   message: false # use this to make sure messages don't show up
   warning: false # use this to make sure warnings don't show up
 ---
+
+###note this is an example of linear regression
 
 # 1. Set up
 
@@ -19,6 +21,7 @@ library(here) # file/folder organization
 library(readxl) # reading .xlsx files
 library(ggeffects) # generating model predictions
 library(gtsummary) # generating summary tables for models
+library(flextable)
 
 # abalone data from Hamilton et al. 2022
 abalone <- read_xlsx(here("data", "Abalone IMTA_growth and pH.xlsx"))
